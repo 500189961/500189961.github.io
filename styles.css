@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f584a6;
+    text-align: center;
+    color: #450000;
+}
+
+header {
+    background-color: #383737;
+    color: #f584a6;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #707070;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #f0317a;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    transition: color 0.3s ease; /* Adding transition effect */
+}
+
+nav a:hover {
+    color: #ffd700; /* Change color on hover (you can use any color you prefer) */
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #383737;
+    color: #f584a6;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
