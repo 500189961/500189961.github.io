@@ -22,9 +22,19 @@ const message = document.getElementById("welcome")
 const hours = new Date().getHours()
 let timeOfDay =""
 
-if  (hours >= 4 && hours < 12) timeOfDay = "It is Morning"
+// current time of day
+if  (hours >= 4 && hours < 12) timeOfDay = "It is Morning" 
 else if (hours >= 12 && hours < 17) timeOfDay = "It is Afternoon"
 else if (hours >= 17 || hours < 4) timeOfDay = "It is Evening"
 
 message.innerHTML = timeOfDay
 
+// secret message
+localStorage.setItem('mySecret', "It's a secret to everybody.");
+const savedSecret = localStorage.getItem('mySecret');
+console.log(savedSecret);
+
+// my favoeitw quote
+localStorage.setItem('myQuote', "You are loved.");
+const savedQuote = localStorage.getItem('myQuote');
+console.log(savedQuote);
