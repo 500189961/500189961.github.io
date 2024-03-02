@@ -30,11 +30,6 @@ else if (hours >= 17 || hours < 4) timeOfDay = "It is Evening"
 message.innerHTML = timeOfDay
 
 // secret message
-localStorage.setItem('mySecret', "It's a secret to everybody.");
-const savedSecret = localStorage.getItem('mySecret');
-console.log(savedSecret);
+localStorage.setItem("It's a secret to everybody.",'Everyday is a new day.');
 
-// my favoeitw quote
-localStorage.setItem('myQuote', "You are loved.");
-const savedQuote = localStorage.getItem('myQuote');
-console.log(savedQuote);
+
